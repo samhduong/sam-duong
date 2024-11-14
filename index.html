@@ -1,1 +1,109 @@
-hello :3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Duong, a Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Tabbed Navigation -->
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab(event, 'home')">Home</button>
+        <button class="tab-button" onclick="openTab(event, 'CV')">CV</button>
+        <button class="tab-button" onclick="openTab(event, 'projects')">Projects</button>
+        <button class="tab-button" onclick="openTab(event, 'repertoire')">Repertoire</button>
+        <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
+    </div>
+
+    <!-- Tab Content -->
+    <div id="home" class="tab-content">
+        <header>
+            <h0>A Personal Website</h0><br>
+            <h1>Samuel Duong</h1><br>
+        </header>
+        <h2>Home</h2><br>
+        <div class="home-container">
+            <img src="profile.jpg" alt="Sam Duong" class="profile-photo">
+            <div class="bio-text">        </div>
+        </div>
+        <h3>Electrical Engineering</h3>
+        <p>Welcome to my website! My name is Sam and I'm currently a fourth-year B.S. Electrical Engineering candidate at California State Polytechnic University, Pomona. 
+            I have a passion for power and energy, especially areas focusing on renewability and sustainability. 
+            As a student, I gain more interest as time goes on through the different curriculum I experience, such as work with microcontrollers (PIC18F4321, Arduino Uno, etc.), control systems, and of course, power. 
+            I have been familiar with the engineering field ever since I was a child; my high school curriculum was specialized in both engineering and biomedical sciences and
+            I graduated completing the Engineering track. During my time there, I committed 4 years to my community FRC (FIRST Robotics Competition) robotics team, Team 4999 Momentum Robotics.
+            There, I got my first exposure to FPGA's, servomotors, pulse-width-modulation, and communications, all aspects of building a functional robot. <br><br>
+            Currently, I am a part of BANSHEE UAV, a project club at Cal Poly Pomona. As a member of the Power Management team, our responsibilities include creating and performing testing
+            procedures for different methods of passive power generation for a drone the entire BANSHEE team is designing for a coast-to-coast flight. In my downtime between project work,
+            this website is actually part of my duties for the project team, as it is a good way to build up skills I might have previously lacked. <br><br>
+            I believe my experiences in high school and university have shaped my passions into what it is today and I would love to share that with others. If you have a child with an
+            interest in robotics, I've provided resources below to hopefully point you in the right direction.
+        </p><br>
+        <p> For grades K-8: </p>
+            <ul>
+            <li><a href="https://www.vexrobotics.com/" target="_blank">VEX Robotics</a></li>
+            <li><a href="https://www.firstinspires.org/robotics/fll" target="_blank">FIRST Lego League</a></li>
+            </ul><br>
+        <p> For grades 7-12: </p>
+            <ul>
+                <li><a href="https://www.firstinspires.org/robotics/ftc" target="_blank">FIRST Tech Challenge</a></li>
+            </ul><br>
+        <p> For grades 9-12: </p>
+            <ul>
+            <li><a href="https://www.firstinspires.org/robotics/frc" target="_blank">FIRST Robotics Competition</a></li>  
+            </ul>
+        <br><p>To learn more about my current project: <a href="https://www.bansheeuav.tech/" target="_blank">BANSHEE UAV</a></p><br>
+        <h3>Construction Management</h3>
+        <p>While my primary interests lie in electrical engineering, I am also currently considering a career in construction management, from my time with Morrow-Meadows Corporation,
+            an electrical contractor. With my (very helpful) supervisor and mentor Bill Nauta, I have experience in many standard construction practices, such as contract review,
+            building overlays (Bluebeam Revu), RFI's, change orders, and much more. I gained all of my experience in communication and management through this experience; I would like to
+            explore this pathway more and am currently looking for opportunities in both electrical engineering and construction management fields.
+        </p><br>
+        <h3>Music</h3>
+        <p>Music will always be my first love. I am a lifelong instrumentalist, piano being my main instrument (I also have years of experience with the violin, bass guitar, and double bass).
+             I am a member of the Cal Poly Pomona Piano Ensemble, led and advised by the talented Dr. Nadia Shpachenko. As I enter my second year with the group, I find myself rediscovering my
+              love for piano performance every rehearsal. I have gotten the wonderful opportunity to work with the composers of the pieces I perform through the ensemble, such as Michael Roth,
+              Jonathan Russell, and Tom Flaherty. My next recital with the Cal Poly Pomona Piano Ensemble is November 26th, 2024 at the Cal Poly Pomona Recital Hall. If you are interested in the
+              composers I mentioned earlier or my upcoming recital, check out the links below!
+        </p><br>
+        <p> <a href="https://www.tix.com/ticket-sales/csupomona/2308/event/1394765" target="_blank">Cal Poly Pomona Presents: Piano Ensemble, November 26, 8:00PM</a></p><br>
+        <p> <a href="https://nadiashpachenko.com/" target="_blank">Dr. Nadia Sphachenko</a></p><br>
+        <p> <a href="https://rothmusik.wixsite.com/rothmusik" target="_blank">Michael Roth</a></p><br>
+        <p> <a href="http://tomflahertymusic.com/index.php" target="_blank">Tom Flaherty</a></p><br>
+        <p> <a href="https://jonrussellmusic.com/" target="_blank">Jonathan Russell</a></p><br>
+
+</div>
+
+    <div id="projects" class="tab-content">
+        <h2>Projects</h2><br>
+        <p>Learn about my experiences and projects here.</p>
+    </div>
+
+    <div id="CV" class="tab-content">
+        <h2>CV</h2><br>
+        <p>You can find a (hopefully updated/current) CV of mine <a href="Resume.pdf" download="Resume.pdf" class="download-link">here.</a></p>
+    </div>
+
+    <div id="repertoire" class="tab-content">
+        <h2>Repertoire</h2><br>
+        <p>Below is my current repertoire, in both solo and ensemble performance. If you are interested in working with me or commissioning a performance, please feel free
+            to reach out <a href="https://www.google.com/" target="_blank">here.</a>
+        </p>
+    </div>
+    
+    <div id="contact" class="tab-content">
+        <h2>Contact</h2>
+        <p>Please feel free to reach out!</p>
+    </div>
+
+    <!-- Footer (always at the bottom)-->
+    <footer>
+        <p>Sam Duong 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
